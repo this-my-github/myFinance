@@ -1,0 +1,29 @@
+.container {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background-color: #fcf3f3;
+	border-radius: 50px;
+	padding: 40px;
+}
+
+.calendar {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0px 0 0px 0;
+}
+
+.chart {
+	position: relative;
+	margin: 20px;
+}
+
+.total {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+}

@@ -1,0 +1,20 @@
+$clr-gray300: #e1e5ee;
+
+.dates {
+    border: 2px solid $clr-gray300;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -40px;
+
+    & .date {
+        width: 8rem;
+        padding: 10px;
+        border-radius: 0.5rem;
+    }
+
+    & .selected {
+        background-color: aqua;
+    }
+}

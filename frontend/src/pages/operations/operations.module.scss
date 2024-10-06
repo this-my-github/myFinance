@@ -1,0 +1,81 @@
+.container {
+	margin: 30px 100px;
+	min-width: 600px;
+	border-radius: 50px;
+	background-color: #e9e9f5;
+	padding: 40px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	
+	& > h2 {
+		margin: 0;
+		margin-top: 0;
+		font-size: 28px;
+	}
+}
+	
+.contralPanel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+	& > button {
+		border: 1px solid #000;
+		padding: 10px 20px;
+	}
+}
+
+.operations {
+	margin-top: 60px;
+}
+
+.typeSelectContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 2px;
+}
+
+.checkboxContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5px;
+
+	& > .type {
+		font-size: 16px;
+	}
+
+	& > input {
+		width: 16px;
+		height: 16px;
+		accent-color: #d13b7b;
+	}
+}
+
+.select {
+	height: 44.8px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.errorMessage {
+	margin-top: 40px;
+	font-size: 30px;
+	color: #8383f9;
+}
+
+.loader {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+  

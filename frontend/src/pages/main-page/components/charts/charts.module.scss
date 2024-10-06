@@ -1,0 +1,33 @@
+.chartsContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.buttons {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.btn {
+	width: 50%;
+	height: 3rem;
+	background-color: #94989a;
+	color: white;
+	border-radius: 50px;
+
+	transition: 0.4s ease-in-out;
+	transition-property: color, background-color;
+
+	&:hover {
+		background-color: #3b3d3e;
+	}
+}
+
+.activeBtn {
+	background-color: #3b3d3e;
+}
+
+.charts {
+	display: flex;
+	gap: 60px;
+}

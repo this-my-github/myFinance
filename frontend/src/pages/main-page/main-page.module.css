@@ -1,0 +1,58 @@
+.container {
+	margin: 30px 100px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.upperContainer {
+	display: flex;
+	gap: 40px;
+}
+
+.chartsContainer,
+.operations {
+	flex: 4;
+}
+
+.accounts {
+	flex: 1;
+	border-radius: 50px;
+	background-color: #e9e9f5;
+	padding: 40px;
+	min-width: 320px;
+}
+
+.cardHeader {
+	display: flex;
+	justify-content: space-between;
+}
+
+.iconContainer {
+	padding: 20px;
+	background-color: rgb(163, 234, 163);
+	border-radius: 20px;
+}
+
+.lowerContainer {
+	display: flex;
+	gap: 40px;
+}
+
+.operations {
+	border-radius: 50px;
+	padding: 40px;
+	background-color: #e9e9f5;
+	min-width: 863.54px;
+}
+
+.loader {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

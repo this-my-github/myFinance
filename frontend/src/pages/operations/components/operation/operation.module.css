@@ -1,0 +1,55 @@
+.container {
+	text-align: start;
+}
+
+.container > div {
+	padding-left: 10px;
+	color: #666;
+}
+
+.operationBlock {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	border-radius: 0.5rem;
+	padding: 15px;
+	margin: 5px 0;
+}
+
+.operation {
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+}
+
+.leftGroup {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.operationText {
+	display: flex;
+}
+
+.operationTitle {
+	text-align: start;
+}
+
+.count {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.buttons {
+	display: flex;
+}
+
+.comment {
+	text-align: start;
+	margin-top: 5px;
+	font-size: 17px;
+	color: #666;
+}

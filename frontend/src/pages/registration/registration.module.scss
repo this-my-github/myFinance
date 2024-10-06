@@ -1,0 +1,43 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #484646;
+    border-radius: 1.5rem;
+    border-radius: 50px;
+	background-color: #e9e9f5;
+	padding: 40px;
+}
+
+.header{
+    margin-bottom: -35px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #94989a;
+    color: white;
+
+    transition: 0.4s ease-in-out;
+	transition-property: color, background-color;
+
+    &:hover {
+        background-color: #3b3d3e;
+      }
+}
+
+.error {
+    margin-top: 10px;
+	color: #dd6464;
+}

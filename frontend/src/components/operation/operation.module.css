@@ -1,0 +1,45 @@
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	font-size: 24px;
+	height: 40px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.title:hover {
+	background-color: #d3d4f1;
+}
+
+.leftGroup {
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+
+.icon {
+	width: 55px;
+}
+
+.itemTitle {
+	flex: 2;
+	min-width: 150px;
+	text-align: left;
+}
+
+.itemCount,
+.itemAccount,
+.itemDate {
+	flex: 1;
+	text-align: right;
+}
+
+.arrowRed {
+	color: red;
+}
+
+.arrowGreen {
+	color: green;
+}

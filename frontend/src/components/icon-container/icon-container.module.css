@@ -1,0 +1,33 @@
+.container {
+	margin-top: 40px;
+	border: 2px solid #e1e5ee;
+	border-radius: 0.5rem;
+	width: 20rem;
+}
+
+.icons {
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.label {
+	padding: 0 0.7rem;
+	width: 80px;
+	color: white;
+	border-radius: 0.5rem;
+	cursor: text;
+	font-size: 20px;
+	background-color: #5c5d64;
+}
+
+.icon {
+	padding: 0.45rem;
+	width: 46px;
+	border-radius: 0.5rem;
+}
+
+.selected {
+	background-color: rgb(163, 234, 163);
+}

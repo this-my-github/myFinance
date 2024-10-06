@@ -1,0 +1,138 @@
+$clr-primary: #3b3d3e;
+$clr-primary-light: #94989a;
+$clr-gray100: #f9fbff;
+$clr-gray300: #e1e5ee;
+$clr-bg: #5c5d64;
+$clr-error: #dd6464;
+
+$radius: 0.5rem;
+$width: 30rem;
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    border: 2px solid $clr-gray300;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    margin-top: 0;
+}
+
+.moneyCount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    &__input {
+        width: 6rem;
+        height: 0.65rem;
+        border: none;
+        border-bottom: 2px solid $clr-gray300;
+        font-family: inherit;
+        font-size: 20px;
+        color: $clr-bg;
+        outline: none;
+        padding: 0.7rem;
+        background: none;
+        text-align: center;
+    
+        &:hover {
+          border-color: $clr-primary-light;
+        }
+    
+        &:focus {
+          border-color: $clr-primary;
+        }
+    
+        &_error {
+          border-color: $clr-error;
+    
+          &:hover {
+            border-color: $clr-error;
+          }
+      
+          &:focus {
+            border-color: $clr-error;
+          }
+        }
+    }
+    
+    & .moneySymbol {
+        font-size: 25px;
+        color: $clr-bg;
+    }
+}
+
+.btn{
+    margin-top: 30px;
+    width: $width;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #94989a;
+    color: white;
+
+    transition: 0.4s ease-in-out;
+	transition-property: color, background-color;
+
+    &:hover {
+        background-color: #3b3d3e;
+      }
+}
+
+.selectCategory {
+    margin-bottom: 30px;
+}
+
+.smallBtn {
+    @extend .btn;
+    width: $width / 2;
+}
+
+.deleteBtn {
+    @extend .btn;
+    margin-bottom: -20px;
+    background-color: #d9534f;
+    
+    &:hover {
+        background-color: #c9302c;
+    }
+}
+
+.error {
+    margin-top: 10px;
+	color: #dd6464;
+}
+
+
+.categories {
+    margin: 20px;
+    width: $width;
+    border: 2px solid $clr-gray300;
+    border-radius: 0.5rem;
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.category {
+    width: 6.42rem;
+    padding: 10px;
+    background-color: white;
+    transition: background-color 0.3s;
+
+}
+
+.selected {
+    background-color: green;
+  }

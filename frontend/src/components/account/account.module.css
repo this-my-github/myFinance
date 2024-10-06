@@ -1,0 +1,19 @@
+.info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	font-size: 24px;
+	height: 40px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.info:hover {
+	background-color: #d3d4f1;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+}
